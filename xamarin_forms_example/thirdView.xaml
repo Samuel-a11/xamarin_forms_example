@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarin_forms_example.thirdView"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Third View"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="btnNext2" Text="Next" CornerRadius="50" BackgroundColor="Red"/>
+            <Button x:Name="btnBack2" Text="Back" CornerRadius="50" BackgroundColor="Red"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

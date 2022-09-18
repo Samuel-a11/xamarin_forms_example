@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarin_forms_example.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <StackLayout>
+        <Frame BackgroundColor="Black" Padding="24" CornerRadius="10">
+            <Image Source="https://www.pequerecetas.com/wp-content/uploads/2013/07/hamburguesas-caseras-receta.jpg" />
+        </Frame>
+        <Frame Margin="20,50,20,0" Background="#1E1E1E" CornerRadius="15">
+            <StackLayout Margin="10">
+                <StackLayout Margin="0,0,0,20" Orientation="Horizontal">
+                    <Label TextColor="#FFFFFF" Margin="0,0,0,20" Text="Burger" FontSize="38"/>
+                    <Button Text="Like" CornerRadius="50" BackgroundColor="Red"/>
+                </StackLayout>
+
+                <Label x:Name="label1"  TextColor="#FFFFFF" Margin="0,0,0,50" Text="Made from ground meat or vegetable origin, agglutinated in the form of a fillet cooked on the grill or grilled."/>
+                <Button x:Name="btnBuy" Text="Buy" CornerRadius="50" BackgroundColor="Red"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+
+</ContentPage>
